@@ -1,6 +1,6 @@
 {
   "root": "value",
-  "key": "\"{{!label}}\" ",
+  "key": "{{!label}}",
   "messages": {
     "wrapArrays": true
   },
@@ -10,7 +10,7 @@
     "empty": "を入力して下さい。",
     "required": "は必須です。",
     "allowOnly": "は次の内いずれかである必要があります : {{valids}}",
-    "default": "threw an error when running default method"
+    "default": "はデフォルトメソッドの実行中にエラーを返しました。"
   },
   "alternatives": {
     "base": "not matching any of the allowed alternatives",
@@ -114,12 +114,12 @@
     "port": "must be a valid port"
   },
   "string": {
-    "base": "文字列のみを入力して下さい",
-    "min": "{{limit}}文字以上入力して下さい",
-    "max": "{{limit}}文字以下で入力して下さい",
-    "length": "{{limit}}文字を使用してください",
-    "alphanum": "アルファベットまたは数字のみを入力して下さい",
-    "token": "アルファベット・数字・アンダースコア以外は使用できません",
+    "base": "文字列のみを入力して下さい。",
+    "min": "{{limit}}文字以上入力して下さい。",
+    "max": "{{limit}}文字以下で入力して下さい。",
+    "length": "{{limit}}文字を使用してください。",
+    "alphanum": "アルファベットまたは数字のみを入力して下さい。",
+    "token": "アルファベット・数字・アンダースコア以外は使用できません。",
     "regex": {
       "base": "with value \"{{!value}}\" fails to match the required pattern: {{pattern}}",
       "name": "with value \"{{!value}}\" fails to match the {{name}} pattern",
@@ -128,7 +128,7 @@
         "name": "with value \"{{!value}}\" matches the inverted {{name}} pattern"
       }
     },
-    "email": "有効なメールアドレスを入力して下さい",
+    "email": "有効な{{label}}を入力して下さい",
     "uri": "must be a valid uri",
     "uriRelativeOnly": "must be a valid relative uri",
     "uriCustomScheme": "must be a valid uri with a scheme matching the {{scheme}} pattern",
