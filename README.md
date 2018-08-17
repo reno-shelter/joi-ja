@@ -7,10 +7,10 @@ Joi's language.js file for Japanese. The translation is currently work in progre
 Import the JSON file and specify that within the config when you validate.
 
 ```javascript
-import joiJa from 'joi-ja/language.ja.json'
+import joiJa from 'joi-ja'
 
-Joi.validate(formData, this.schema, {
+Joi.validate(value, schema, {
     abortEarly: false,
     language: joiJa
-  })
+})
 ```
