@@ -1,0 +1,10 @@
+{
+  "name": "joi-ja",
+  "version": "0.0.1",
+  "description": "Joi's language file for Japanese",
+  "main": "language.js",
+  "repository": "git@github.com:reno-shelter/joi-ja.git",
+  "author": "Toshihiro Kanai <i@miruc.co>",
+  "license": "MIT",
+  "private": false
+}
