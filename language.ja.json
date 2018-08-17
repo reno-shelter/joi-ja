@@ -128,7 +128,7 @@
         "name": "with value \"{{!value}}\" matches the inverted {{name}} pattern"
       }
     },
-    "email": "有効な{{label}}を入力して下さい",
+    "email": "有効な{{label}}を入力して下さい。",
     "uri": "must be a valid uri",
     "uriRelativeOnly": "must be a valid relative uri",
     "uriCustomScheme": "must be a valid uri with a scheme matching the {{scheme}} pattern",
