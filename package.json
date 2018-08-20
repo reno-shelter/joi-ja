@@ -1,6 +1,6 @@
 {
   "name": "joi-ja",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Joi's language file for Japanese",
   "main": "language.ja.json",
   "repository": "git@github.com:reno-shelter/joi-ja.git",
