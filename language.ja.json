@@ -1,16 +1,16 @@
 {
   "root": "value",
-  "key": "{{!label}}",
+  "key": "",
   "messages": {
     "wrapArrays": true
   },
   "any": {
-    "unknown": "は使用できません。",
-    "invalid": "に使用できない値が含まれています。",
-    "empty": "を入力して下さい。",
-    "required": "は必須です。",
-    "allowOnly": "は次の内いずれかである必要があります : {{valids}}",
-    "default": "はデフォルトメソッドの実行中にエラーを返しました。"
+    "unknown": "{{label}}は使用できません。",
+    "invalid": "{{label}}に使用できない値が含まれています。",
+    "empty": "{{label}}を入力して下さい。",
+    "required": "{{label}}は必須です。",
+    "allowOnly": "{{label}}は次の内いずれかである必要があります : {{valids}}",
+    "default": "{{label}}はデフォルトメソッドの実行中にエラーを返しました。"
   },
   "alternatives": {
     "base": "not matching any of the allowed alternatives",
@@ -128,9 +128,9 @@
         "name": "with value \"{{!value}}\" matches the inverted {{name}} pattern"
       }
     },
-    "email": "有効な{{label}}を入力して下さい。",
-    "uri": "must be a valid uri",
-    "uriRelativeOnly": "must be a valid relative uri",
+    "email": "有効なメールアドレスを入力して下さい。",
+    "uri": "有効な URI を入力して下さい。",
+    "uriRelativeOnly": "相対 URI を入力して下さい。",
     "uriCustomScheme": "must be a valid uri with a scheme matching the {{scheme}} pattern",
     "isoDate": "must be a valid ISO 8601 date",
     "guid": "must be a valid GUID",
