@@ -1,0 +1,11 @@
+language: node_js
+node_js:
+- '10'
+
+deploy:
+  provider: npm
+  email: i@miruc.co
+  on:
+    branch: master
+  api_key:
+    secure: B3Q09a0N+73fmhkjHY7fRcTCLBzo66Gt6+Wx5tVSHwjIJwCnX9rNZ3T8cS40TMZhZf2ggiO/eog8Nvql/ucQeUVXG9KkQ0436Zq7opTBwTmL8a3kIsNpd9k+jtHoK0D++Sa1Qa8EAJV+PD5K9EPQc6DS6vT9MmrgjiPM9vIXbOLIKemau+kyQVti1Uz6ZbLBCnqFCyv4wN33Wy1O+vdM5GncksiA7Rv6tCQ3KbUuhc2zPkttw1XYOi0j46pw8dmTr0MIoy8dp4vsA0ePg5vFmDCSFFX+WZUUONUKkN554vkeZTfXT8x4Yv/848y4vDoskkyu+l00cv3zeh27JD5fH/JmY1DNDj3jmvVQGHZpmc27QAKlA14P/SHvGbS4BuTMCvFrqidNFfUwGy2tx1i8JmqYqbwVi8Wyal0VKK5rzYxF2NZtQOgMbiqblOte7NudLpf9H+9+TAIR1afIWUxnQWrFfRbfGvmAGdDvSScoW19jRzz3rJ5+D/tz+FzC923sNZEFZuW8PfnuDWGy/TsGAIqpXO9sKtSNURYXQvYIjf+b+9pywR16EIxToveqYBib9ggU6+oF2R87QTwDBYNT77VW5hYkq7h6bm+jeFN3o3FKnPou6oSMnLPAVvKcI5IGiWMrcc2IjGtQsY3KZmmUADtkR4kjvfFVG5NczqaBuEk=
