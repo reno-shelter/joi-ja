@@ -10,7 +10,6 @@ Import the JSON file and specify that within the config when you validate.
 import joiJa from 'joi-ja'
 
 Joi.validate(value, schema, {
-    abortEarly: false,
     language: joiJa
 })
 ```

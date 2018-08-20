@@ -6,5 +6,11 @@
   "repository": "git@github.com:reno-shelter/joi-ja.git",
   "author": "Toshihiro Kanai <i@miruc.co>",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "scripts": {
+    "test": "prettier --list-different language.ja.json"
+  },
+  "devDependencies": {
+    "prettier": "^1.14.2"
+  }
 }
