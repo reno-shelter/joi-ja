@@ -17,7 +17,7 @@
     "child": null
   },
   "array": {
-    "base": "must be an array",
+    "base": "{{label}}は配列である必要があります。",
     "includes": "at position {{pos}} does not match any of the allowed types",
     "includesSingle": "single value of \"{{!label}}\" does not match any of the allowed types",
     "includesOne": "at position {{pos}} fails because {{reason}}",
@@ -37,7 +37,7 @@
     "unique": "position {{pos}} contains a duplicate value"
   },
   "boolean": {
-    "base": "must be a boolean"
+    "base": "{{label}}は真偽値である必要があります。"
   },
   "binary": {
     "base": "must be a buffer or a string",
@@ -46,9 +46,9 @@
     "length": "must be {{limit}} bytes"
   },
   "date": {
-    "base": "must be a number of milliseconds or valid date string",
-    "format": "must be a string with one of the following formats {{format}}",
-    "strict": "must be a valid date",
+    "base": "{{label}}はミリ秒の数値もしくは有効な日付を示す文字列である必要があります。",
+    "format": "{{label}}はつぎのフォーマットの中のいずれかである必要があります : {{format}}",
+    "strict": "{{label}}は有効な日付である必要があります。",
     "min": "must be larger than or equal to \"{{limit}}\"",
     "max": "must be less than or equal to \"{{limit}}\"",
     "less": "must be less than \"{{limit}}\"",
@@ -99,7 +99,7 @@
     "schema": "must be a Joi instance"
   },
   "number": {
-    "base": "must be a number",
+    "base": "{{label}}は数値である必要があります。",
     "min": "must be larger than or equal to {{limit}}",
     "max": "must be less than or equal to {{limit}}",
     "less": "must be less than {{limit}}",
@@ -128,8 +128,8 @@
         "name": "with value \"{{!value}}\" matches the inverted {{name}} pattern"
       }
     },
-    "email": "有効なメールアドレスを入力して下さい。",
-    "uri": "有効な URI を入力して下さい。",
+    "email": "{{label}}には有効なメールアドレスを入力して下さい。",
+    "uri": "{{label}}には有効な URI を入力して下さい。",
     "uriRelativeOnly": "相対 URI を入力して下さい。",
     "uriCustomScheme": "must be a valid uri with a scheme matching the {{scheme}} pattern",
     "isoDate": "must be a valid ISO 8601 date",
